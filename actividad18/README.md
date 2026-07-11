@@ -1,0 +1,34 @@
+# JFo 4.4 y 4.5 - Actividad 18
+
+## Redondea una nota media
+
+Muestra media, round, ceil y floor.
+
+## Objetivo
+
+- Leer el código base y corregirlo o completarlo.
+- Ejecutar el programa y comprobar el resultado.
+- Ejecutar los tests JUnit para confirmar la autocorrección.
+- Hacer `git add`, `git commit` y `git push`.
+
+## Salida esperada
+
+```text
+Media: 7.5
+Round: 8
+Ceil: 8.0
+Floor: 7.0
+```
+
+## Instrucciones para Eclipse
+
+1. Importa este proyecto en Eclipse como un proyecto Maven.
+2. Abre `src/main/java/modulo4_4_4_5_actividad18/Actividad18.java`.
+3. Corrige o completa el código.
+4. Ejecuta `Run As > Java Application`.
+5. Ejecuta `Actividad18Test.java` con `Run As > JUnit Test`.
+6. Haz commit y push cuando la actividad funcione.
+
+## GitHub Actions
+
+- El workflow `Java CI` ejecuta automáticamente `mvn test` en cada push.
