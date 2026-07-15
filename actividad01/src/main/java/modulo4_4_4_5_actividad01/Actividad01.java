@@ -5,6 +5,7 @@ import java.util.Random;
 public class Actividad01 {
   public static void main(String[] args) {
     Random rand = new Random();
-    System.out.println("Random creado");
+    int num = rand.nextInt(6)+1;
+    System.out.println("Random creado " + num);
   }
 }
